@@ -1,6 +1,6 @@
-alert("hi");
+window.addEventListener('load', function() {
+    document.querySelector('.fade-in').classList.add('active');
+  });
+  
 
-var stuff = document.getElementById("smthing");
-stuff.addEventListener("click", function (){
-    window.location.href = "history.html";
-});
+

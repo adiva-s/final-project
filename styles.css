@@ -18,7 +18,8 @@ body{
 
 .paragraph{
     text-align: center;
-    
+    width: 1000px;
+    margin: auto;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
 }
@@ -53,15 +54,38 @@ body{
     
 }
 
+.intro{
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;    
+    font-size: 20px;
+    width: 1000px;
+    padding-left: 5px;
+    padding-right: 20px ;
+
+}
+
 .fade-in {
     opacity: 0;
     visibility: hidden;
     transition: opacity 3s ease-in-out;
-  }
+}
   
-  .fade-in.active {
+.fade-in.active {
     opacity: 1;
     visibility: visible;
-  }
+}
 
   
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content img{
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}

@@ -131,6 +131,10 @@ h2{
     color: #014f86
 }
 
+.content img{
+    margin-top: 20px;
+}
+
 .resources{
     width: 700px;
 }

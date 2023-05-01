@@ -5,7 +5,13 @@ body{
 
 #regular-h1{
     font-family: 'Playfair Display SC', serif;
-    font-size: 50px;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -80,7 +86,6 @@ a:hover{
     opacity: 1;
     visibility: visible;
 }
-
   
 .content{
     display: flex;
@@ -94,6 +99,23 @@ a:hover{
     margin-bottom: 20px;
 }
 
+.pics{
+    display: flex;
+    justify-content: center;
+}
 
+.pics img{
+    margin: auto;
+}
+
+.hover-effect {
+    transition: all 0.3s ease-in-out;
+  }
   
+.hover-effect:hover {
+    transform: scale(1.2);
+}
+  
+
+
   

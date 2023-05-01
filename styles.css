@@ -117,5 +117,11 @@ a:hover{
 }
   
 
-
+.intro-privacy{
+    text-align: center;
+    width: 1250px;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
   
